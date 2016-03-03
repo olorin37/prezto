@@ -78,4 +78,6 @@ fi
 TMPPREFIX="${TMPDIR%/}/zsh"
 
 # added by Nix
-if [ -e /home/olorin/.nix-profile/etc/profile.d/nix.sh ]; then . /home/olorin/.nix-profile/etc/profile.d/nix.sh; fi 
+if [[ -e /home/olorin/.nix-profile/etc/profile.d/nix.sh ]]; then
+  . /home/olorin/.nix-profile/etc/profile.d/nix.sh
+fi 
